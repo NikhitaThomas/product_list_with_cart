@@ -114,7 +114,7 @@ function Cart({ cart, totalItems, totalPrice, deleteItems, setCart, cartRef }) {
               </h2>
               <ul className="bg-red-50 p-5">
                 {cartItems.map(([name, item], index) => (
-                  <li className="py-6 border-b">
+                  <li key={index} className="py-6 border-b">
                     <div className="flex justify-between">
                       <div className="flex gap-4">
                         <div>

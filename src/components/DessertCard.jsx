@@ -30,6 +30,7 @@ function DessertCard({ img, type, name, price, addItem, cart, removeItem }) {
                   src={'/assets/images/icon-decrement-quantity.svg'}
                   height={15}
                   width={15}
+                  alt=""
                 />
               </button>
               {itemInCart.quantity}
@@ -41,6 +42,7 @@ function DessertCard({ img, type, name, price, addItem, cart, removeItem }) {
                   src={'/assets/images/icon-increment-quantity.svg'}
                   height={15}
                   width={15}
+                  alt=""
                 />
               </button>
             </div>
@@ -53,6 +55,7 @@ function DessertCard({ img, type, name, price, addItem, cart, removeItem }) {
                 src={'/assets/images/icon-add-to-cart.svg'}
                 height={25}
                 width={25}
+                alt=""
               />
               Add to Cart
             </button>
